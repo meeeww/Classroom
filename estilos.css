@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido{
+    display: flex;
+}
