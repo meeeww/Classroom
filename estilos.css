@@ -1,14 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&family=Roboto&display=swap');
+
+a{
+    text-decoration: inherit;
+    font-family: 'Nunito Sans', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
 .main{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .categorias{
     display: flex;
     flex-direction: column;
+    margin-left: 2.5rem;
+}
+
+.categorias a{
+    margin-top: 1rem;
+    color: grey;
+}
+
+.categorias a:hover{
+    color: pink;
+}
+
+.categorias a:active{
+    color: pink;
+}
+
+.categorias a:focus{
+    color: pink;
+}
+
+.header a{
+    color: pink;
+}
+
+.crearBoton{
+    background-color: pink;
+    border-radius: 5rem;
+    color: white !important;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .contenido{
     display: flex;
+}
+
+.header a{
+    font-weight: 1000;
+    margin-right: 20px;
+}
+
+.panel{
+    width: 80%;
+    margin-inline: 0.5rem;
 }
