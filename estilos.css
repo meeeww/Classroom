@@ -1,45 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&family=Roboto&display=swap');
 
-a{
+a {
     text-decoration: inherit;
     font-family: 'Nunito Sans', sans-serif;
     /*font-family: 'Roboto', sans-serif;*/
 }
 
-.main{
+.main {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.categorias{
+.categorias {
     display: flex;
     flex-direction: column;
     margin-left: 2.5rem;
 }
 
-.categorias a{
+.categorias a {
     margin-top: 1rem;
     color: grey;
 }
 
-.categorias a:hover{
+.categorias a:hover {
     color: pink;
 }
 
-.categorias a:active{
+.categorias a:active {
     color: pink;
 }
 
-.categorias a:focus{
+.categorias a:focus {
     color: pink;
 }
 
-.header a{
+.header a {
     color: pink;
 }
 
-.crearBoton{
+.crearBoton {
     background-color: pink;
     border-radius: 5rem;
     color: white !important;
@@ -50,16 +50,37 @@ a{
     font-size: 16px;
 }
 
-.contenido{
+.contenido {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.header a{
+.contenido p {
+    margin: 0;
+    padding: 0;
+}
+
+.header a {
     font-weight: 1000;
     margin-right: 20px;
 }
 
-.panel{
+.panel {
     width: 80%;
     margin-inline: 0.5rem;
+}
+
+.titulo {
+    font-size: 2rem;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
 }
