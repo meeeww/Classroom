@@ -75,12 +75,23 @@ a {
     font-size: 2rem;
 }
 
-.imagen{
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: pink;
-    width: 2rem;
-    height: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
     border-radius: 1rem;
+}
+
+.imagen i{
+    font-size: 2rem;
 }
